@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MotionGraphix — freelance designer and creative professional. Motion graphics, graphic design, web design, video editing and creative services.">
+  <title>MotionGraphix | Creative Designer & Freelancer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="header">
+    <a class="logo" href="#home"><span class="logo-mark">M</span> MotionGraphix</a>
+    <nav class="nav" id="nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#business">Business</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">☼</button>
+      <a class="btn btn-small btn-gradient" href="#contact">Hire Me</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">HI, I'M</p>
+        <h1>Motion <span>Graphics</span></h1>
+        <h2>Freelance Designer & Creative Professional</h2>
+        <p class="hero-text">
+          I create stunning visuals, modern designs and powerful digital experiences.
+          Whether you need a personal project, freelance service or a business solution,
+          I'm here to turn your ideas into life.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-gradient" href="#contact">Hire Me <span>→</span></a>
+          <a class="btn btn-outline" href="#portfolio">View My Work</a>
+        </div>
+        <div class="stats">
+          <div><strong class="counter" data-target="5">0</strong><span>+ Years Experience</span></div>
+          <div><strong class="counter" data-target="50">0</strong><span>+ Happy Clients</span></div>
+          <div><strong class="counter" data-target="100">0</strong><span>+ Projects Completed</span></div>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="portrait">
+          <div class="portrait-head"></div>
+          <div class="portrait-body"></div>
+          <div class="portrait-ring"></div>
+          <div class="signature">Turn Ideas<br><em>Into Reality</em></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Let's Know About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>I'm a passionate creative professional with a strong interest in design, motion graphics, and digital media. I love turning simple ideas into visually stunning content that makes an impact.</p>
+          <p>I work with individuals, startups and businesses to create high-quality designs, videos and digital solutions. My goal is to help brands grow and stand out with creativity and strategy.</p>
+          <div class="value-list">
+            <div class="value"><span>✦</span><div><b>Creative Mindset</b><small>Always thinking outside the box</small></div></div>
+            <div class="value"><span>✓</span><div><b>Reliable & Professional</b><small>On time, every time</small></div></div>
+            <div class="value"><span>♡</span><div><b>Client Focused</b><small>Your vision, my priority</small></div></div>
+          </div>
+          <a class="btn btn-outline" href="#" onclick="downloadResume(event)">Download Resume ↓</a>
+        </div>
+        <div class="skills-card card reveal">
+          <h3>My Skills</h3>
+          <div class="skill"><div><span>After Effects</span><b>90%</b></div><i><u style="width:90%"></u></i></div>
+          <div class="skill"><div><span>Premiere Pro</span><b>85%</b></div><i><u style="width:85%"></u></i></div>
+          <div class="skill"><div><span>Photoshop</span><b>90%</b></div><i><u style="width:90%"></u></i></div>
+          <div class="skill"><div><span>Illustrator</span><b>80%</b></div><i><u style="width:80%"></u></i></div>
+          <div class="skill"><div><span>HTML & CSS</span><b>75%</b></div><i><u style="width:75%"></u></i></div>
+          <div class="skill"><div><span>JavaScript</span><b>60%</b></div><i><u style="width:60%"></u></i></div>
+          <div class="experience-mini"><span>◈</span><div><b>Experience</b><small>5+ Years<br>Freelance & Business</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SERVICES</p>
+        <h2>My Services</h2>
+        <p>I offer a wide range of creative and digital services to help you build your brand, grow your business and achieve your goals.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service card reveal"><span class="service-icon">✦</span><h3>Motion Graphics</h3><p>Eye-catching motion graphics, animations and visual effects for your brand.</p><a href="#contact">Learn More →</a></article>
+        <article class="service card reveal"><span class="service-icon">◈</span><h3>Graphic Design</h3><p>Logos, social media posts, banners, flyers and more.</p><a href="#contact">Learn More →</a></article>
+        <article class="service card reveal"><span class="service-icon">⌘</span><h3>Website Design</h3><p>Modern, responsive and user-friendly websites.</p><a href="#contact">Learn More →</a></article>
+        <article class="service card reveal"><span class="service-icon">▣</span><h3>Video Editing</h3><p>Professional video editing for YouTube, ads, reels and more.</p><a href="#contact">Learn More →</a></article>
+        <article class="service card reveal"><span class="service-icon">◎</span><h3>Social Media Design</h3><p>Creative content for Instagram, Facebook, YouTube and more.</p><a href="#contact">Learn More →</a></article>
+        <article class="service card reveal"><span class="service-icon">◆</span><h3>Freelance Services</h3><p>Custom projects, consultations and long-term collaborations.</p><a href="#contact">Learn More →</a></article>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="section-heading reveal">
+        <p class="eyebrow">PORTFOLIO</p>
+        <h2>My Latest Work</h2>
+        <p>A selection of my best projects. Each project tells a story of creativity, strategy and dedication.</p>
+      </div>
+      <div class="filters reveal">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="motion">Motion Graphics</button>
+        <button class="filter" data-filter="graphic">Graphic Design</button>
+        <button class="filter" data-filter="web">Web Design</button>
+        <button class="filter" data-filter="video">Video Editing</button>
+      </div>
+      <div class="portfolio-grid">
+        <article class="project project-motion reveal" data-category="motion"><div class="project-art neon">NEON</div><div class="project-label">Motion Graphics</div></article>
+        <article class="project project-graphic reveal" data-category="graphic"><div class="project-art brand">A<span>BRAND</span></div><div class="project-label">Logo Design</div></article>
+        <article class="project project-web reveal" data-category="web"><div class="project-art website"><div class="browser"><i></i><i></i><i></i></div><div class="screen-lines"></div></div><div class="project-label">Website Design</div></article>
+        <article class="project project-video reveal" data-category="video"><div class="project-art cinematic">CINEMATIC</div><div class="project-label">Video Editing</div></article>
+        <article class="project project-graphic reveal" data-category="graphic"><div class="project-art social"><b>CREATIVE</b><span>Social</span><span>Content</span></div><div class="project-label">Social Media Design</div></article>
+        <article class="project project-graphic reveal" data-category="graphic"><div class="project-art red"><b>Creative</b><span>Designs</span></div><div class="project-label">Graphic Design</div></article>
+      </div>
+      <div class="center reveal"><a class="btn btn-outline" href="#contact">View All Projects →</a></div>
+    </section>
+
+    <section class="section business-section" id="business">
+      <div class="section-heading reveal">
+        <p class="eyebrow">BUSINESS</p>
+        <h2>Work With Me</h2>
+        <p>Whether you need a one-time project or a long-term partnership, I have flexible options for your needs.</p>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card card reveal"><h3>Basic</h3><div class="price">₹1,999 <small>/ project</small></div><ul><li>✓ 1 Revision</li><li>✓ 3 Days Delivery</li><li>✓ Basic Support</li></ul><a href="#contact" class="btn btn-outline">Get Started</a></article>
+        <article class="price-card card popular reveal"><span class="popular-badge">Most Popular</span><h3>Standard</h3><div class="price">₹4,999 <small>/ project</small></div><ul><li>✓ 3 Revisions</li><li>✓ 5 Days Delivery</li><li>✓ Priority Support</li><li>✓ Source Files</li></ul><a href="#contact" class="btn btn-gradient">Get Started</a></article>
+        <article class="price-card card reveal"><h3>Premium</h3><div class="price">₹9,999 <small>/ project</small></div><ul><li>✓ Unlimited Revisions</li><li>✓ 7 Days Delivery</li><li>✓ Dedicated Support</li><li>✓ Source Files + Extras</li></ul><a href="#contact" class="btn btn-outline">Get Started</a></article>
+      </div>
+      <div class="trust-row reveal"><span>⚙ Creative Solutions<br><small>That Drive Results</small></span><span>◇ High Quality<br><small>& Professional Work</small></span><span>◷ On-Time<br><small>Delivery</small></span><span>♧ 100% Client<br><small>Satisfaction</small></span></div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="section-heading reveal"><p class="eyebrow">TESTIMONIALS</p><h2>What My Clients Say</h2><p>I'm proud to have worked with amazing people and businesses.</p></div>
+      <div class="testimonial-grid">
+        <article class="testimonial card reveal"><div class="avatar">R</div><b>Rohit Sharma</b><small>Business Owner</small><p>“Amazing work! The designs were exactly what I wanted. Very professional and delivered on time.”</p><div class="stars">★★★★★</div></article>
+        <article class="testimonial card reveal"><div class="avatar">S</div><b>Sneha Patel</b><small>YouTuber</small><p>“The motion graphics and editing made my videos look so much better. Highly recommended!”</p><div class="stars">★★★★★</div></article>
+        <article class="testimonial card reveal"><div class="avatar">A</div><b>Arjun Mehta</b><small>Startup Founder</small><p>“Super creative, easy to work with and very reliable. Will definitely work again.”</p><div class="stars">★★★★★</div></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal"><p class="eyebrow">CONTACT</p><h2>Let's Work Together</h2><p>Have a project in mind? Let's talk! I'd love to hear about your ideas and help you bring them to life.</p></div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a href="https://wa.me/919876543210" target="_blank" rel="noopener"><span>◉</span><div><b>WhatsApp</b><small>+91 98765 43210</small></div></a>
+          <a href="mailto:motiongraphix@gmail.com"><span>✉</span><div><b>Email</b><small>motiongraphix@gmail.com</small></div></a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener"><span>◎</span><div><b>Instagram</b><small>@motiongraphix</small></div></a>
+          <div><span>●</span><div><b>Location</b><small>India · Available Worldwide</small></div></div>
+        </div>
+        <form class="contact-form card reveal" id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+          <button class="btn btn-gradient" type="submit">Send Message →</button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="cta section reveal">
+      <div><p class="eyebrow">LET'S BUILD SOMETHING</p><h2>Amazing Together</h2><p>Your ideas × My creativity = Great results</p></div>
+      <a class="btn btn-gradient" href="#contact">Hire Me →</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home"><span class="logo-mark">M</span> MotionGraphix</a>
+    <p>Design · Create · Grow</p>
+    <div class="socials"><a href="#">◎</a><a href="#">in</a><a href="#">▶</a><a href="#">𝕏</a></div>
+    <small>© 2026 MotionGraphix. All rights reserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
